@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>İstiklâl Marşı</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            min-height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px;
+
+            font-family: Arial, sans-serif;
+            text-align: center;
+
+            /* ARKA PLAN FOTOĞRAFI */
+            background-image: url("bayrak.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            /* TAM EKRAN */
+            background-size: cover;
+
+            background-attachment: fixed;
+        }
+
+
+        /* BAŞLIK */
+
+        h1 {
+            color: black;
+            font-size: 40px;
+            margin: 10px 0 5px 0;
+        }
+
+        h2 {
+            color: black;
+            font-size: 22px;
+            margin: 0;
+        }
+
+
+        /* 5 SOL - 5 SAĞ */
+
+        .mars {
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 60px;
+
+            max-width: 1200px;
+
+            margin: 45px auto 0;
+
+            text-align: center;
+        }
+
+
+        /* KITALAR */
+
+        .sol div,
+        .sag div {
+            color: black;
+
+            font-size: 16px;
+
+            line-height: 1.7;
+
+            margin-bottom: 35px;
+
+            font-weight: 500;
+        }
+
+
+        /* KÜÇÜK EKRAN */
+
+        @media (max-width: 900px) {
+
+            body {
+                padding: 20px;
+
+                background-attachment: scroll;
+            }
+
+            .mars {
+                grid-template-columns: 1fr;
+
+                gap: 10px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .sol div,
+            .sag div {
+                font-size: 14px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <h1>İSTİKLÂL MARŞI</h1>
+
+    <h2>Mehmet Âkif Ersoy</h2>
+
+
+    <div class="mars">
+
+
+        <!-- SOL TARAF: 1-5. KITALAR -->
+
+        <div class="sol">
+
+
+            <!-- 1. KITA -->
+
+            <div>
+                Korkma, sönmez bu şafaklarda yüzen al sancak;<br>
+                Sönmeden yurdumun üstünde tüten en son ocak.<br>
+                O benim milletimin yıldızıdır, parlayacak;<br>
+                O benimdir, o benim milletimindir ancak.
+            </div>
+
+
+            <!-- 2. KITA -->
+
+            <div>
+                Çatma, kurban olayım çehreni ey nazlı hilâl!<br>
+                Kahraman ırkıma bir gül! Ne bu şiddet, bu celâl?<br>
+                Sana olmaz dökülen kanlarımız sonra helâl,<br>
+                Hakkıdır, Hakk'a tapan, milletimin istiklâl!
+            </div>
+
+
+            <!-- 3. KITA -->
+
+            <div>
+                Ben ezelden beridir hür yaşadım, hür yaşarım.<br>
+                Hangi çılgın bana zincir vuracakmış? Şaşarım!<br>
+                Kükremiş sel gibiyim, bendimi çiğner, aşarım;<br>
+                Yırtarım dağları, enginlere sığmam, taşarım.
+            </div>
+
+
+            <!-- 4. KITA -->
+
+            <div>
+                Garb'ın âfâkını sarmışsa çelik zırhlı duvar,<br>
+                Benim iman dolu göğsüm gibi serhaddim var.<br>
+                Ulusun, korkma! Nasıl böyle bir îmanı boğar,<br>
+                "Medeniyet!" dediğin tek dişi kalmış canavar?
+            </div>
+
+
+            <!-- 5. KITA -->
+
+            <div>
+                Arkadaş! Yurduma alçakları uğratma, sakın;<br>
+                Siper et gövdeni, dursun bu hayâsızca akın.<br>
+                Doğacaktır sana va'dettiği günler Hakk'ın;<br>
+                Kim bilir, belki yarın, belki yarından da yakın.
+            </div>
+
+
+        </div>
+
+
+
+        <!-- SAĞ TARAF: 6-10. KITALAR -->
+
+        <div class="sag">
+
+
+            <!-- 6. KITA -->
+
+            <div>
+                Bastığın yerleri "toprak!" diyerek geçme, tanı!<br>
+                Düşün altındaki binlerce kefensiz yatanı.<br>
+                Sen şehîd oğlusun, incitme, yazıktır, atanı;<br>
+                Verme, dünyaları alsan da bu cennet vatanı.
+            </div>
+
+
+            <!-- 7. KITA -->
+
+            <div>
+                Kim bu cennet vatanın uğruna olmaz ki fedâ?<br>
+                Şühedâ fışkıracak toprağı sıksan, şühedâ!<br>
+                Cânı, cânânı, bütün varımı alsın da Hudâ,<br>
+                Etmesin tek vatanımdan beni dünyada cüdâ.
+            </div>
+
+
+            <!-- 8. KITA -->
+
+            <div>
+                Ruhumun senden İlâhî, şudur ancak emeli:<br>
+                Değmesin ma'bedimin göğsüne nâ-mahrem eli.<br>
+                Bu ezanlar -ki şehâdetleri dinin temeli-<br>
+                Ebedî yurdumun üstünde benim inlemeli.
+            </div>
+
+
+            <!-- 9. KITA -->
+
+            <div>
+                O zaman vecd ile bin secde eder -varsa- taşım;<br>
+                Her cerîhamdan, İlâhî, boşanıp kanlı yaşım,<br>
+                Fışkırır ruh-ı mücerred gibi yerden na'şım;<br>
+                O zaman yükselerek Arş'a değer, belki, başım.
+            </div>
+
+
+            <!-- 10. KITA -->
+
+            <div>
+                Dalgalan sen de şafaklar gibi ey şanlı hilâl!<br>
+                Olsun artık dökülen kanlarımın hepsi helâl.<br>
+                Ebediyen sana yok, ırkıma yok izmihlâl:<br>
+                Hakkıdır, hür yaşamış, bayrağımın hürriyet;<br>
+                Hakkıdır, Hakk'a tapan, milletimin istiklâl!
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+</body>
+</html>
